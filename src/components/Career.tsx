@@ -15,43 +15,37 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Member / Community Contributor</h4>
+                <h5>AWS Security User Group (APAC)</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2024 - Present</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Actively participating in APAC-wide AWS security community initiatives. Collaborating with cloud security professionals to share knowledge on AWS security best practices, IAM, threat detection, and compliance.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Guest Speaker & Mentor</h4>
+                <h5>Career Guidance Volunteer, Jaipur</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025 - Present</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Conducted "Career Roadmaps" sessions at ZPHS. Mentored 8th-10th grade students on career planning, technology pathways, and skill development, bridging the gap between rural students and tech sector opportunities.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>B.Tech Computer Science</h4>
+                <h5>Symbiosis Institute of Technology</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2022 - 2026</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Relevant Coursework: Data Structures & Algorithms, Cloud Computing, Network Security, Machine Learning. Active participant in technical fests and hackathons.
             </p>
           </div>
         </div>

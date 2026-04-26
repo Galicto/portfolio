@@ -6,9 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Motivated and driven B.Tech Computer Science student at Symbiosis Institute of Technology with hands-on experience in cloud security, community building, and leadership. Active contributor to the AWS Security User Group (APAC) and a proven problem-solver — having led Team NEO to back-to-back 1st Prize victories in competitive challenges. Passionate about mentoring the next generation of tech leaders.
         </p>
       </div>
     </div>

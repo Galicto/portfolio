@@ -75,6 +75,10 @@ body {
   margin: auto;
   position: relative;
 }
+#smooth-wrapper {
+  position: relative;
+  z-index: 10;
+}
 .container1 {
   width: var(--cWidth);
   height: var(--vh);

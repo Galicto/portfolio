@@ -53,21 +53,39 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+          {[
+            {
+              title: "Fruboo",
+              category: "Founder & Lead Developer",
+              tools: "React, Node.js, Web Technologies",
+              desc: "I am the founder of Fruboo. It is an innovative platform delivering a premium, modern user experience with mobile-first UI optimization and dynamic features.",
+              link: "https://fruboo.in",
+              image: "/images/fruboo.png"
+            },
+            {
+              title: "ArthNiti",
+              category: "Lead Developer",
+              tools: "React, Vite, Three.js, GSAP",
+              desc: "A high-end, immersive landing page for a financial platform, featuring a procedurally generated 3D neural brain and data-driven reactive UI.",
+              link: "https://arth-niti-jneo.vercel.app",
+              image: "/images/arthniti.png"
+            }
+          ].map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{project.title}</h4>
+                    <p>{project.category}</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>{project.tools}</p>
+                <p style={{ marginTop: "10px", fontSize: "14px", color: "#ccc" }}>{project.desc}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image={project.image} link={project.link} alt={`${project.title} Thumbnail`} />
             </div>
           ))}
         </div>

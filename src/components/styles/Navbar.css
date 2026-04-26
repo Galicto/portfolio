@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap');
+
 .header {
   display: flex;
   max-width: var(--cMaxWidth);
@@ -41,9 +43,10 @@
   font-weight: 500;
 }
 .navbar-title {
+  font-family: 'Cinzel', serif;
   font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.2px;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 @media only screen and (min-width: 500px) {
   .header {
@@ -58,7 +61,7 @@
     color: #eae5ec;
   }
   .navbar-title {
-    font-size: 16px;
+    font-size: 22px;
   }
 }
 @media only screen and (min-width: 900px) {
@@ -78,6 +81,6 @@
     font-size: 16px;
   }
   .navbar-title {
-    font-size: 18px;
+    font-size: 26px;
   }
 }
