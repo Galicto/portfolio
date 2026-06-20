@@ -42,7 +42,7 @@ const Career = () => {
                 <h4>B.Tech Computer Science</h4>
                 <h5>Symbiosis Institute of Technology</h5>
               </div>
-              <h3>2022 - 2026</h3>
+              <h3>2024 - 2028</h3>
             </div>
             <p>
               Relevant Coursework: Data Structures & Algorithms, Cloud Computing, Network Security, Machine Learning. Active participant in technical fests and hackathons.
